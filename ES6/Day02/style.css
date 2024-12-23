@@ -1,0 +1,23 @@
+.tab-button {
+    padding: 15px 30px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #06fa43;
+    cursor: pointer;
+}
+
+.tab-button:hover {
+    background-color: #f4f80a;
+}
+
+#posts-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#posts-container p {
+    margin: 5px 0;
+}

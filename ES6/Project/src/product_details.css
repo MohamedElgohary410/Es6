@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header nav div {
+    display: flex;
+    gap: 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header nav a:hover {
+    background-color: #555;
+}
+
+.cart {
+    font-size: 20px;
+    margin: 0 15px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px);
+    padding: 20px;
+}
+
+.product-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-details {
+    margin-top: 20px;
+}
+
+.product-details p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.add-to-cart {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: rgb(4, 219, 4);
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.scroll-up {
+    width: 50px;
+    height: 50px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.scroll-up:hover {
+    background-color: #0056b3;
+}

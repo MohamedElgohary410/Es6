@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/product_details.css">
+    <title>Product</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#" id="cart">🛒</a>
+            <span id="userName"></span>
+            <a href="#" id="logout">Logout</a>
+        </nav>
+    </header>
+    <div class="product-container">
+        <img id="productImage" class="product-image" src="" alt="Product Image">
+        <div class="product-details">
+            <p><strong>Product Name:</strong> <span id="productName"></span></p>
+            <p><strong>Price:</strong> <span id="productPrice"></span></p>
+            <p><strong>Quantity:</strong> <span id="productQuantity"></span></p>
+            <p><strong>Category:</strong> <span id="productCategory"></span></p>
+            <button class="add-to-cart" id="addToCart">Add to Cart</button>
+        </div>
+    </div>
+    <footer>
+        <button class="scroll-up">⬆</button>
+    </footer>
+    <script src="/src/product_details.js"></script>
+</body>
+
+</html>
